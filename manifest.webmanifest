@@ -1,0 +1,14 @@
+{
+  "name": "아파트핏 — 아파트 안에서 끝내는 운동",
+  "short_name": "아파트핏",
+  "description": "단지 헬스장 러닝머신, 거실 홈트레이닝, 계단·집안일 일상 훈련까지 — 아파트 생활 운동 트래커",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f1117",
+  "theme_color": "#0f1117",
+  "icons": [
+    { "src": "./icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
