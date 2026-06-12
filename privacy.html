@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>개인정보처리방침 · 아파트핏</title>
+  <link rel="icon" href="icon.svg" />
+  <style>
+    :root { --bg:#13161c; --card:#1b1f27; --text:#e8eaf0; --mut:#8b93a3; --pri:#ff7a45; --line:#262b38; }
+    * { margin:0; box-sizing:border-box; }
+    body { background:var(--bg); color:var(--text); font-family:-apple-system,'Apple SD Gothic Neo','Pretendard',sans-serif; line-height:1.75; }
+    .wrap { max-width:680px; margin:0 auto; padding:48px 22px 80px; }
+    h1 { font-size:26px; margin-bottom:4px; }
+    .date { color:var(--mut); font-size:13px; margin-bottom:34px; }
+    h2 { font-size:17px; margin:34px 0 10px; color:var(--pri); }
+    p, li { font-size:14.5px; color:var(--text); }
+    ul { padding-left:20px; margin:8px 0; }
+    .box { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:18px 20px; margin:16px 0; }
+    .box b { color:var(--pri); }
+    table { width:100%; border-collapse:collapse; font-size:13.5px; margin:10px 0; }
+    th, td { border:1px solid var(--line); padding:8px 10px; text-align:left; vertical-align:top; }
+    th { background:var(--card); color:var(--mut); font-size:12px; }
+    a { color:var(--pri); }
+    .back { display:inline-block; margin-top:40px; color:var(--mut); text-decoration:none; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>개인정보처리방침</h1>
+    <p class="date">시행일: 2026년 6월 12일</p>
+
+    <div class="box">
+      <b>요약부터.</b> 아파트핏은 계정도 가입도 없습니다. 운동 기록, 몸무게, 무게 설정 같은 데이터는
+      <b>전부 사용자의 기기 안에만</b> 저장되고, 우리 서버로 전송되지 않습니다.
+      서버에 닿는 건 딱 두 가지 — 직접 참여를 선택한 벤치마크 기록과, 익명 사용 통계뿐입니다.
+    </div>
+
+    <h2>1. 수집하지 않는 것</h2>
+    <p>이름, 이메일, 전화번호, 위치, 연락처, 사진 등 개인을 식별할 수 있는 정보를 수집하지 않습니다.
+    운동 기록·신체 정보는 기기의 로컬 저장소(localStorage)에만 보관되며, 앱을 삭제하면 함께 사라집니다.
+    백업 파일은 사용자가 직접 내보내고 보관합니다.</p>
+
+    <h2>2. 수집하는 것</h2>
+    <table>
+      <tr><th>항목</th><th>내용</th><th>시점</th></tr>
+      <tr>
+        <td>익명 사용 통계</td>
+        <td>무작위 익명 ID, 화면 이동·기능 사용 이벤트, 기기·브라우저 종류. 운동 기록 수치는 포함되지 않습니다.</td>
+        <td>앱 사용 중 (설정에서 끌 수 있음)</td>
+      </tr>
+      <tr>
+        <td>벤치마크 기록</td>
+        <td>직접 입력한 별명, 제출한 기록 수치, 익명 ID</td>
+        <td>"단지 벤치마크"에 직접 제출할 때만</td>
+      </tr>
+      <tr>
+        <td>친구 초대 확인</td>
+        <td>초대한 쪽·받은 쪽의 익명 ID, 중복 방지용 IP 해시(원본 IP는 저장하지 않음)</td>
+        <td>초대 링크로 시작할 때만</td>
+      </tr>
+    </table>
+
+    <h2>3. 처리 위탁 및 국외 이전</h2>
+    <p>위 데이터의 저장·처리를 위해 아래 서비스를 이용하며, 서버는 미국에 있습니다.</p>
+    <ul>
+      <li>PostHog Inc. — 익명 사용 통계 분석</li>
+      <li>Cloudflare, Inc. — 벤치마크·초대 API 운영</li>
+      <li>Neon, Inc. — 벤치마크 기록 데이터베이스</li>
+    </ul>
+
+    <h2>4. 보유 기간과 파기</h2>
+    <p>벤치마크 기록은 앱 안의 삭제 버튼으로 언제든 지울 수 있고, 삭제 즉시 서버에서 제거됩니다.
+    익명 통계는 서비스 개선 목적 달성 후 파기합니다. 서비스를 종료하면 모든 서버 데이터를 파기합니다.</p>
+
+    <h2>5. 이용자의 권리</h2>
+    <p>수집되는 게 익명 데이터뿐이라 계정 탈퇴 절차 자체가 없습니다. 그래도 본인 데이터 삭제를 원하시면
+    앱 내 삭제 기능을 쓰시거나 아래 연락처로 요청해 주세요. 지체 없이 처리합니다.</p>
+
+    <h2>6. 만 14세 미만</h2>
+    <p>아파트핏은 만 14세 미만 아동의 개인정보를 수집하지 않습니다.</p>
+
+    <h2>7. 책임자 및 문의</h2>
+    <p>개인정보 보호책임자: 고동현 · <a href="mailto:ulsanhci@gmail.com">ulsanhci@gmail.com</a></p>
+
+    <h2>8. 방침 변경</h2>
+    <p>내용이 바뀌면 이 페이지에 시행일과 함께 게시합니다.</p>
+
+    <a class="back" href="landing.html">← 아파트핏으로 돌아가기</a>
+  </div>
+</body>
+</html>
